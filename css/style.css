@@ -13,7 +13,7 @@
 /* ..................... MAIN PROJECT ..................... */
 
 .main{
-    margin-top: 8rem;
+    margin-top: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,6 +99,44 @@
     color: var(--bg-white);
     font-size: 1.5rem;
     text-align: center;
+}
+
+/* ..................... ABOUT ..................... */
+
+.about{
+    color: var(--bg-white);
+    text-align: center;
+}
+
+.about-heading{
+    font-size: 6rem;
+    margin-top: 3rem;
+}
+
+.about-text1, .about-text2{
+    font-size: 1.7rem;
+    margin-top: 5rem;
+}
+
+.sec-links{
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.links  a img{
+    width: 4rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    color: var(--bg-white);
+}
+
+/* ..................... MEDIA QUERIES ..................... */
+
+.c-wrap{
+    width: 50rem;
+    border: 2px solid red;
+    background-color: #fffef7ad;
+    padding: 5rem;
 }
 
 /* ..................... MEDIA QUERIES ..................... */
