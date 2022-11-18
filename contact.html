@@ -40,17 +40,18 @@
     </header>
     
     <section class="contact container">
+        <h1 class="contact-heading"> Contact </h1>
         <div class="c-wrap">
-            <h1 class="contact-heading"> Contact </h1>
             <form action="" class="contact-form">
                 <p class="c-text"> Full Name </p>
                 <input type="text">
                 <p class="c-text"> E-mail </p>
                 <input type="email">
                 <p class="c-text"> Phone no: </p>
-                <input type="number">
+                <input type="text">
                 <p class="c-text"> Type your query: </p>
                 <textarea name="" id="" cols="50" rows="10"></textarea>
+                <button type="submit" class="submitBtn" onclick="fun1()"> Submit </button>
             </form>
         </div>
 	</section>
@@ -58,5 +59,11 @@
     <section class="footer">
 		<p class="text"> One Blood &copy; &nbsp; | &nbsp Andy Designs &nbsp | &nbsp; All rights reserved </p>
 	</section>
+
+    <script>
+        function fun1(){
+            alert("Application submitted..!");
+        }
+    </script>
 </body>
 </html>
