@@ -236,4 +236,13 @@
         font-size: 1.3rem;
         text-align: center;
     }
+
+    .about{
+        height: 50rem;
+    }
+
+    .c-wrap{
+        width: 30rem;
+        height: 45rem;    
+    }
 }
