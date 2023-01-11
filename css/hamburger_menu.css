@@ -86,4 +86,4 @@
 
 .ham input[type="checkbox"]:checked ~ .l-ham .line-3{
     transform: rotate(-45deg) translate(0, -1px); 
-}
+} 
